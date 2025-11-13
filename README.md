@@ -361,14 +361,15 @@ resp_audio = locutor.run(cresp)
 print(resp_audio['audio'])
 ```
 
->   {
-  "audio": {
-    "url": "https://fal.media/files/elephant/dXVMqWsBDG9yan3kaOT0Z_tmp0vvkha3s.wav"
-	"content_type": "wav"
-	"file_name": "tmp0vvkha3s.wav"
-	"file_size": 240400
-  	}
-	}
+    {
+        "audio": {
+            "url": "https://fal.media/files/elephant/dXVMqWsBDG9yan3kaOT0Z_tmp0vvkha3s.wav",
+            "content_type": "wav",
+            "file_name": "tmp0vvkha3s.wav",
+            "file_size": 240400
+            }
+    }
+
 <audio controls>
   <source src="./output/Epsodio-01-podcast.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
