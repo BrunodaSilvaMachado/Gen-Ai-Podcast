@@ -361,15 +361,20 @@ resp_audio = locutor.run(cresp)
 print(resp_audio['audio'])
 ```
 
-   {
+>   {
   "audio": {
     "url": "https://fal.media/files/elephant/dXVMqWsBDG9yan3kaOT0Z_tmp0vvkha3s.wav"
 	"content_type": "wav"
 	"file_name": "tmp0vvkha3s.wav"
 	"file_size": 240400
-  }
-}
-    
+  	}
+	}
+<audio controls>
+  <source src="./output/Epsodio-01-podcast.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>    
+
+![](./output/Epsodio-01-podcast.mp3)
 
 ### Artista
 
@@ -395,4 +400,6 @@ resp_image = artista.run(features=artista_features)
 	--ar 1:1
 	"
 	
-	![cavaleiro-podcaster.png](attachment:35ef1170-343c-47cc-95cd-862cd7fb7b17.png)
+	![cavaleiro-podcaster.png](./output/cavaleiro-podcaster.png)
+
+![cavaleiro-podcaster.png](./output/cavaleiro-podcaster.png)
