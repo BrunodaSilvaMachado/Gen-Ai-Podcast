@@ -179,3 +179,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+js/
+gerar_imagens_huggingface.py
+output/Epsodio-01-podcast.mp4
